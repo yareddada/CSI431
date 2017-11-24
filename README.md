@@ -12,8 +12,8 @@ This assignment involved creating a single-split decision tree classifier using 
 The CART impurity measure wasn't working properly, but I managed to hack around it and got 100%.
 
 # HW 3
-This assignment involved using sklearn's cross validation module to compare different classifiers: (linear) SVM, Decision trees with different impurity measures, LDA, and random forest.
+This assignment involved using sklearn's cross validation module to compare different classifiers: (linear) SVM, Decision trees(using entropy and Gini index), LDA, and random forest.
 
-First, I tested different values of the parameter C for SVM and max_leaf_nodes for the decision trees. I then compared the classifiers with their best parameters against LDA and random forest classifiers. Comparisons were based on average class precision, average class recall, and F1-score.
+First, I used k-fold cross-validation to test different values of the parameter C for SVM, and max_leaf_nodes for the decision trees. I then compared the classifiers with their best parameters against LDA and random forest classifiers. Comparisons were based on average class precision, average class recall, and F1-score.
 
 Results were presented as 6 bar graphs.
